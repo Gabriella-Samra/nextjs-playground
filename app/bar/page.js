@@ -1,6 +1,6 @@
-import Nav from "@/components/nav/Nav";
+import Form from "../_components/form/Form";
+import Nav from "../_components/nav/Nav";
 import "./bar.css";
-import Form from "@/components/form/Form";
 
 export default function Page() {
 	return (
