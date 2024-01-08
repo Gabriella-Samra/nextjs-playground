@@ -1,3 +1,33 @@
-.nav {
-	color: green;
+.navBar {
+	background-color: rgb(37, 37, 37);
+
+	.mainBar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.links {
+			ul {
+				display: flex;
+				color: white;
+				list-style-type: none;
+				padding: 5px;
+
+				li{
+					padding-right: 10px;
+				}
+			}
+		}
+
+		.signUp {
+			p {
+				border: 1px white solid;
+				border-radius: 30px;
+				background-color: white;
+				color: rgb(37, 37, 37);
+				text-align-last: center;
+				padding: 5px;
+			}
+		}
+	}
 }
